@@ -4,52 +4,118 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HT</title>
+  <title>Go Program Code (Shivam Tiwari)</title>
   
-  <!-- HTML -->
+  <!--FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-
-  <!-- Custom Styles -->
+  <!-- MAIN CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <!-- HEADER DESIGN -->
+  <header class="header">
+    <a href="#" class="logo">Go Program Code</a>
+    
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
   
+  <!-- HOME SECTION DESIGN -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi, Myself</h3>
+      <h1>Shivam Tiwari</h1>
+      <h3>And I'm a <span>Web Developer</span></h3>
+      <p>"Go Program Code" is developer to help students. I want more people like me to know about coding and learn to code. Go Program Code decided to reaching the best standards for learning and performance in the field of quality education and new skilld. Our teaching process will allow you to focused on easy learning.</p>
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <a hre="#" class="btn">Download CV</a>
+    </div>
+    
+    <div class="home-img">
+      <img src="/Screenshot_20240104-184032_Instagram.jpg" alt="">
+    </div>
+  </section>
   
-  <div class="container">
-    <div class="left">
-      <label><i class="fa-brands fa-html5"></i> HTML</label>
-      <textarea id="html-code" onkeyup="run()"></textarea>
+  <!-- ABOUT SECTION DESIGN -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="/Designer.png" alt="">
+    </div>
+    
+    
+    <div class="about-content">
+      <h2 class="heading"><span>About </span></span></h2>
+      <h3>Go Program Code</h3>
+      <p>"Go Program Code" is developer to help students. I want more people like me to know about coding and learn to code. Go Program Code decided to reaching the best standards for learning and performance in the field of quality education and new skilld. Our teaching process will allow you to focused on easy learning.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+  
+  <!-- COURSES SECTION DESIGN -->
+  <section class="courses" id="courses">
+    <h2 class="heading">Basic <span>Courses</span></h2>
+    
+    <div class="courses-container">
       
-      <label><i class="fa-brands fa-css3-alt"></i> CSS</label>
-      <textarea id="css-code" onkeyup="run()"></textarea>
-      
-      <label><i class="fa-brands fa-js"></i> JavaScript</label>
-      <textarea id="js-code" onkeyup="run()"></textarea>
-  </div>
+      <div class="courses-box">
+        <i class="fa-brands fa-html5"></i>
+        <h2> HTML Basic Course
+        <h3><span>Price - ₹675 Per Month</span></h3>
+        <p>Master the web with our comprehensive web development course. Learn HTML responsive design, backend development, frameworks like Git deployment, and more. Hands-on projects and expert guidance prepare you for a dynamic career in web development.</p>
+        <a href="#" class="btn">Buy Now</a>
+        </div>
+        
+          <div class="courses-box">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS Basic Course
+              <h3><span>Price - ₹740 Per Month</span></h3>
+              <p>Master the web with our comprehensive web development course. Learn CSS responsive design, backend development, frameworks like Git deployment, and more. Hands-on projects and expert guidance prepare you for a dynamic career in web development.</p>
+              <a href="#" class="btn">Buy Now</a>
+      </div>
+  </section>
   
-  <div class="right">
-    <label><i class="fa-solid fa-play"></i> Output</label>
-    <iframe id="output"></iframe>
-  </div>
   
+    <!-- COURSES SECTION DESIGN -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address"></div>
+        
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+    </section>
+    
+    <!-- FOOTER DESIGN -->
+    
+    <footer class="footer"></footer>
+    
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2024 by @shivamtiwari | All Rights Reserved.</p>
+    </div>
+    
+    <div class="footer-iconTop">
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
   <script src="main.js"></script>
-  
-  <script>
-    
-    function run(){
-      let htmlCode = document.getElementById("html-code").value;
-      let cssCode = document.getElementById("css-code").value;
-      let jsCode = document.getElementById("js-code").value;
-      let output = document.getElementById("output");
-    
-    
-    output.contentDocument.body.innerHTML = htmlCode+"<style>"+cssCode +"<style>";
-    .output.contentWindow.eval(jsCode);
-      }
-    
-  </script>
-  
 </body>
 </html>
