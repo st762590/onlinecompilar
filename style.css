@@ -295,7 +295,7 @@ span {
   
   .footer-iconTop a i {
     font-size: 2.4rem;
-   color: ; 
+   color: #59B2F4; 
   }
   
   
@@ -327,6 +327,22 @@ span {
   
   @media (max-width: 768px) {
     #menu-icon {
+      display: block;
+    }
+    
+    .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%
+      padding: 1rem 3%;
+      background: #191f36;
+      border-top: .1rem solid rgba(0, 0, 0, .2);
+      box-shadow: 0 .5rem 1rem rgba(0, 0, .2);
+      display: none;
+    }
+    
+    .navbar.active {
       display: block;
     }
     
@@ -388,5 +404,5 @@ span {
   }
   
   .contact form .input-box input {
-    width: 100%
+    width: 100%;
   }
