@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  background-color: #191f36;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #191f36;
+  color: var(color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 15rem 9% 2rem;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background: #191f36;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 700;
+  cursor: default;
+}
+
+span {
+  color: #59B2F4;
+}
+.btn {
+  display:inline-block;
+  padding: 1rem 2.8rem;
+  background: #59B2F4;
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem #59B2F4;
+  font-size: 1.6rem;
+  color: #191f36;
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .4s ease;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.courses h2 {
+  margin-bottom: 5rem;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.courses-container .courses-box {
+  flex: 1 1 30rem;
+  background: #262B40;
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .2rem solid #191f36;
+  transition: .5s ease;
+}
+
+.courses-container .courses-box:hover {
+  border-color: #59B2F4;
+  transform: scale(1.02);
+}
+
+.courses-box i {
+  font-size: 7rem;
+  color: #59B2F4;
+}
+
+.courses-box h3 {
+  font-size: 2.6rem;
+}
+
+.courses-box p {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
