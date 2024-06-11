@@ -226,6 +226,11 @@ span {
   margin: 1rem 0;
 }
 
+body img {
+width: 60vw;
+  border-radius: 4px;
+}
+
 .contact {
   margin-bottom: 3rem;
 }
