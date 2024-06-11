@@ -10,6 +10,14 @@
   font-family: "Nunito", sans-serif;
 }
 
+p1 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 13px;
+}
+
 :root {
   background-color: #191f36;
   color: white;
