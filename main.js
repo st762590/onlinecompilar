@@ -13,7 +13,7 @@ ScrollReveal().reveal('.home-contact p, .courses',  { origin: 'right'});
 
 /*==================================== typed js ===================*/
 const typed = new Typed('.multiple-text', {
-  strings: ['Web Development', 'HTML', 'CSS', 'With SHIVAM TIWARI'],
+  strings: ['Web Development', 'HTML', 'CSS', 'Python', 'With SHIVAM TIWARI'],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
